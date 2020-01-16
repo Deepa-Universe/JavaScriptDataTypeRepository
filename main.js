@@ -58,6 +58,31 @@ for(let numValue3 of arrayObj1)
     console.log(numValue3); //for objects not present in array, it is printed at "undefined" with no. of undefined objects
 }
 
+console.log("----------------------------------------------------------------" )
+console.log("----------------------------------------------------------------" )
+console.log("----------------------------------------------------------------" )
+console.log("----------------------------------------------------------------" )
+console.log("----------------------------------------------------------------" )
+console.log("----------------------------------------------------------------" )
+
+//Dated- 16th January 2020
+let intArrayObj = [1,2,3,4,5,6,7,8,9,10,11,12,13,14];
+
+//for loop- works really fast with heavy flow of data.
+for(let counter2 = 0; counter2 <= intArrayObj.length -1 ; counter2 ++)
+{
+    console.log(intArrayObj[counter2]);
+}
+
+for(let itemObjArray of intArrayObj) //This is foreach 
+{
+    console.log(itemObjArray);
+}
+
+//Important-If we do not have data in array in JS at few positions and we try to fetch it, it does not throw exception. 
+//It takes the empty positions in object as "undefined"
+
+
 
 
 
